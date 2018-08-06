@@ -1,0 +1,49 @@
+.bookingsWrapper {
+  width: 326px;
+  border: 1px solid #e4e4e4;
+  padding: 16px 24px 24px 24px;
+  position: sticky;
+  display: inline-block;
+  position: -webkit-sticky;
+  float: right;
+  margin-right: 80px;
+  margin-top: 38px;
+  top: 20px;
+}
+@media (max-width: 1100px) {
+  .bookingsWrapper {
+    display:none;
+  }
+  .listing-bodyWrapper {
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px !important;
+  }
+  .reviewsWrapper {
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px !important;
+  }
+}
+
+.listing-bodyWrapper {
+  width: 50%;
+  padding: 30px 85px;
+  display: block;
+}
+
+.reviewsWrapper {
+  width: 50%;
+  padding: 3px 85px;
+  display: block;
+}
+
+.imagesCarouselWrapper {
+  height: 358px;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
